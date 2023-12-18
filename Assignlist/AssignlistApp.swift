@@ -11,7 +11,9 @@ import SwiftUI
 struct AssignlistApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                DashbordView()
+            }
         }
     }
 }
